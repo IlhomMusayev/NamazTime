@@ -42,7 +42,7 @@ function showPosition(position) {
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude
     async function main() {
-        let url = `http://api.aladhan.com/v1/calendar?latitude=` + latitude + `&longitude=` + longitude + `&method=22&month=5&year=2021`;
+        let url = `https://api.aladhan.com/v1/calendar?latitude=` + latitude + `&longitude=` + longitude + `&method=22&month=5&year=2021`;
         let response = await fetch(url);
 
         let commits = await response.json()
