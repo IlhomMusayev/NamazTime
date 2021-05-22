@@ -1,0 +1,19 @@
+.nomoz-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nomoz-date h2{
+    margin-left: 10px;
+}
+.btn{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
